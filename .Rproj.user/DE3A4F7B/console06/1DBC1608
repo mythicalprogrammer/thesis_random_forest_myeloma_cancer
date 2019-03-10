@@ -50,3 +50,64 @@ remote: Resolving deltas:   0% (0/2)   [Kremote: Resolving deltas:  50% (1/2) 
 To https://github.com/mythicalprogrammer/thesis_random_forest_myeloma_cancer.git
  * [new branch]      master -> master
 ]0;~/Documents/csulb/thesis/1_data/Myeloma_cancer/3_other_models/random_forest/1_random_forest_accuracyAnthonys-MacBook-Pro-2:1_random_forest_accuracy anthonydoan$ git add .
+]0;~/Documents/csulb/thesis/1_data/Myeloma_cancer/3_other_models/random_forest/1_random_forest_accuracyAnthonys-MacBook-Pro-2:1_random_forest_accuracy anthonydoan$ git commit -m "Add ed util files to create confusion matrix[Kces."
+[master 0387c67] Added util files to create confusion matrices.
+ 6 files changed, 42 insertions(+), 2 deletions(-)
+ create mode 100644 10_utils.R
+]0;~/Documents/csulb/thesis/1_data/Myeloma_cancer/3_other_models/random_forest/1_random_forest_accuracyAnthonys-MacBook-Pro-2:1_random_forest_accuracy anthonydoan$ git push or[K[K[K[K[K[K[K[K[K[K[Kset.seed(1030)
+bash: syntax error near unexpected token `1030'
+]0;~/Documents/csulb/thesis/1_data/Myeloma_cancer/3_other_models/random_forest/1_random_forest_accuracyAnthonys-MacBook-Pro-2:1_random_forest_accuracy anthonydoan$ n <- unique(result _df$partition_number)
+bash: syntax error near unexpected token `('
+]0;~/Documents/csulb/thesis/1_data/Myeloma_cancer/3_other_models/random_forest/1_random_forest_accuracyAnthonys-MacBook-Pro-2:1_random_forest_accuracy anthonydoan$ nr <- nrow(prostat e_data)
+bash: syntax error near unexpected token `('
+]0;~/Documents/csulb/thesis/1_data/Myeloma_cancer/3_other_models/random_forest/1_random_forest_accuracyAnthonys-MacBook-Pro-2:1_random_forest_accuracy anthonydoan$ 
+]0;~/Documents/csulb/thesis/1_data/Myeloma_cancer/3_other_models/random_forest/1_random_forest_accuracyAnthonys-MacBook-Pro-2:1_random_forest_accuracy anthonydoan$ for (j in n) {
+bash: syntax error near unexpected token `('
+]0;~/Documents/csulb/thesis/1_data/Myeloma_cancer/3_other_models/random_forest/1_random_forest_accuracyAnthonys-MacBook-Pro-2:1_random_forest_accuracy anthonydoan$   random_forest_pr edictions <- list()
+bash: syntax error near unexpected token `('
+]0;~/Documents/csulb/thesis/1_data/Myeloma_cancer/3_other_models/random_forest/1_random_forest_accuracyAnthonys-MacBook-Pro-2:1_random_forest_accuracy anthonydoan$   for (i in  1:nr)  {
+bash: syntax error near unexpected token `('
+]0;~/Documents/csulb/thesis/1_data/Myeloma_cancer/3_other_models/random_forest/1_random_forest_accuracyAnthonys-MacBook-Pro-2:1_random_forest_accuracy anthonydoan$     train <- prost ate_data[-c(i), ]
+bash: syntax error near unexpected token `('
+]0;~/Documents/csulb/thesis/1_data/Myeloma_cancer/3_other_models/random_forest/1_random_forest_accuracyAnthonys-MacBook-Pro-2:1_random_forest_accuracy anthonydoan$     test <- prosta te_data[i,]
+bash: -: No such file or directory
+]0;~/Documents/csulb/thesis/1_data/Myeloma_cancer/3_other_models/random_forest/1_random_forest_accuracyAnthonys-MacBook-Pro-2:1_random_forest_accuracy anthonydoan$     rf.fit <- rang er(state ~ ., data = train, num.trees = j, seed = 1030)
+bash: syntax error near unexpected token `('
+]0;~/Documents/csulb/thesis/1_data/Myeloma_cancer/3_other_models/random_forest/1_random_forest_accuracyAnthonys-MacBook-Pro-2:1_random_forest_accuracy anthonydoan$     pred <- predic t(rf.fit, test)
+bash: syntax error near unexpected token `('
+]0;~/Documents/csulb/thesis/1_data/Myeloma_cancer/3_other_models/random_forest/1_random_forest_accuracyAnthonys-MacBook-Pro-2:1_random_forest_accuracy anthonydoan$     random_forest_ predictions[[i]] <- pred$predictions
+bash: -: No such file or directory
+]0;~/Documents/csulb/thesis/1_data/Myeloma_cancer/3_other_models/random_forest/1_random_forest_accuracyAnthonys-MacBook-Pro-2:1_random_forest_accuracy anthonydoan$   }
+bash: syntax error near unexpected token `}'
+]0;~/Documents/csulb/thesis/1_data/Myeloma_cancer/3_other_models/random_forest/1_random_forest_accuracyAnthonys-MacBook-Pro-2:1_random_forest_accuracy anthonydoan$ 
+]0;~/Documents/csulb/thesis/1_data/Myeloma_cancer/3_other_models/random_forest/1_random_forest_accuracyAnthonys-MacBook-Pro-2:1_random_forest_accuracy anthonydoan$   # back up the re sult since this took awhile to run
+]0;~/Documents/csulb/thesis/1_data/Myeloma_cancer/3_other_models/random_forest/1_random_forest_accuracyAnthonys-MacBook-Pro-2:1_random_forest_accuracy anthonydoan$   file_path  <- st r_c('intermediate_data/LOOCV_random_forest_results_num_part_',
+bash: syntax error near unexpected token `('
+]0;~/Documents/csulb/thesis/1_data/Myeloma_cancer/3_other_models/random_forest/1_random_forest_accuracyAnthonys-MacBook-Pro-2:1_random_forest_accuracy anthonydoan$                        j, '.csv')
+bash: syntax error near unexpected token `)'
+]0;~/Documents/csulb/thesis/1_data/Myeloma_cancer/3_other_models/random_forest/1_random_forest_accuracyAnthonys-MacBook-Pro-2:1_random_forest_accuracy anthonydoan$   write.csv(random _forest_predictions,
+bash: syntax error near unexpected token `random_forest_predictions,'
+]0;~/Documents/csulb/thesis/1_data/Myeloma_cancer/3_other_models/random_forest/1_random_forest_accuracyAnthonys-MacBook-Pro-2:1_random_forest_accuracy anthonydoan$             file =  file_path,
+=:          cannot open `=' (No such file or directory)
+file_path,: cannot open `file_path,' (No such file or directory)
+]0;~/Documents/csulb/thesis/1_data/Myeloma_cancer/3_other_models/random_forest/1_random_forest_accuracyAnthonys-MacBook-Pro-2:1_random_forest_accuracy anthonydoan$             row.na mes = FALSE)
+bash: syntax error near unexpected token `)'
+]0;~/Documents/csulb/thesis/1_data/Myeloma_cancer/3_other_models/random_forest/1_random_forest_accuracyAnthonys-MacBook-Pro-2:1_random_forest_accuracy anthonydoan$ }
+bash: syntax error near unexpected token `}'
+]0;~/Documents/csulb/thesis/1_data/Myeloma_cancer/3_other_models/random_forest/1_random_forest_accuracyAnthonys-MacBook-Pro-2:1_random_forest_accuracy anthonydoan$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/DE3A4F7B/console06/1DBC1608[m
+	[31mmodified:   .Rproj.user/DE3A4F7B/sources/prop/INDEX[m
+	[31mmodified:   .Rproj.user/shared/notebooks/paths[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m20_random_forest_loocv.R[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;~/Documents/csulb/thesis/1_data/Myeloma_cancer/3_other_models/random_forest/1_random_forest_accuracyAnthonys-MacBook-Pro-2:1_random_forest_accuracy anthonydoan$ j[Kvi[K[Kgit add .
