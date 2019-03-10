@@ -111,3 +111,28 @@ Untracked files:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 ]0;~/Documents/csulb/thesis/1_data/Myeloma_cancer/3_other_models/random_forest/1_random_forest_accuracyAnthonys-MacBook-Pro-2:1_random_forest_accuracy anthonydoan$ j[Kvi[K[Kgit add .
+]0;~/Documents/csulb/thesis/1_data/Myeloma_cancer/3_other_models/random_forest/1_random_forest_accuracyAnthonys-MacBook-Pro-2:1_random_forest_accuracy anthonydoan$ git commit -m "Add ed random[K[K[K[K[K[Kleave one out cross validation for random forest."
+[master f31dc9a] Added leave one out cross validation for random forest.
+ 5 files changed, 91 insertions(+), 1 deletion(-)
+ create mode 100644 20_random_forest_loocv.R
+]0;~/Documents/csulb/thesis/1_data/Myeloma_cancer/3_other_models/random_forest/1_random_forest_accuracyAnthonys-MacBook-Pro-2:1_random_forest_accuracy anthonydoan$ git push oirgin ma ster[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K origin ma ster
+fatal: unable to access 'https://github.com/mythicalprogrammer/thesis_random_forest_myeloma_cancer.git/': Could not resolve host: github.com
+]0;~/Documents/csulb/thesis/1_data/Myeloma_cancer/3_other_models/random_forest/1_random_forest_accuracyAnthonys-MacBook-Pro-2:1_random_forest_accuracy anthonydoan$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/DE3A4F7B/console06/1DBC1608[m
+	[31mmodified:   .Rproj.user/DE3A4F7B/sources/prop/INDEX[m
+	[31mmodified:   .Rproj.user/shared/notebooks/paths[m
+	[31mmodified:   20_random_forest_loocv.R[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31mintermediate_data/[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;~/Documents/csulb/thesis/1_data/Myeloma_cancer/3_other_models/random_forest/1_random_forest_accuracyAnthonys-MacBook-Pro-2:1_random_forest_accuracy anthonydoan$ git add .
