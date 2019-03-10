@@ -4,3 +4,35 @@ fatal: not a git repository (or any of the parent directories): .git
 Initialized empty Git repository in /Users/anthonydoan/Documents/csulb/thesis/1_data/Myeloma_cancer/3_other_models/random_forest/1_random_forest_accuracy/.git/
 ]0;~/Documents/csulb/thesis/1_data/Myeloma_cancer/3_other_models/random_forest/1_random_forest_accuracyAnthonys-MacBook-Pro-2:1_random_forest_accuracy anthonydoan$ git add[K[K[K[K[K[K[Kgit remote add ori gin https://github.com/mythicalprogrammer/thesis_random_forest_myeloma_cancer.g it
 ]0;~/Documents/csulb/thesis/1_data/Myeloma_cancer/3_other_models/random_forest/1_random_forest_accuracyAnthonys-MacBook-Pro-2:1_random_forest_accuracy anthonydoan$ git add .
+]0;~/Documents/csulb/thesis/1_data/Myeloma_cancer/3_other_models/random_forest/1_random_forest_accuracyAnthonys-MacBook-Pro-2:1_random_forest_accuracy anthonydoan$ git commit -m "ini tial commit.)[K"
+[master (root-commit) c9dc4df] initial commit.
+ 12 files changed, 261 insertions(+)
+ create mode 100644 .Rproj.user/DE3A4F7B/console06/1DBC1608
+ create mode 100644 .Rproj.user/DE3A4F7B/console06/INDEX001
+ create mode 100644 .Rproj.user/DE3A4F7B/sources/prop/15DBD978
+ create mode 100644 .Rproj.user/DE3A4F7B/sources/prop/INDEX
+ create mode 100644 .Rproj.user/DE3A4F7B/sources/s-7FD5C02/5EDDB9FE
+ create mode 100644 .Rproj.user/DE3A4F7B/sources/s-7FD5C02/5EDDB9FE-contents
+ create mode 100644 .Rproj.user/DE3A4F7B/sources/s-7FD5C02/lock_file
+ create mode 100644 .Rproj.user/shared/notebooks/patch-chunk-names
+ create mode 100644 .Rproj.user/shared/notebooks/paths
+ create mode 100644 00_packages.R
+ create mode 100644 1_random_forest_accuracy.Rproj
+ create mode 100644 start_data/GDS531_after_anova.csv
+]0;~/Documents/csulb/thesis/1_data/Myeloma_cancer/3_other_models/random_forest/1_random_forest_accuracyAnthonys-MacBook-Pro-2:1_random_forest_accuracy anthonydoan$ cp ../../
+.DS_Store      random_forest/ 
+Anthonys-MacBook-Pro-2:1_random_forest_accuracy anthonydoan$ cp ../../
+.DS_Store      random_forest/ 
+Anthonys-MacBook-Pro-2:1_random_forest_accuracy anthonydoan$ cp ../../../
+.DS_Store
+1_EDA/
+2_cerp_guide/
+3_other_models/
+GDS531/
+GDS531.zip
+generalize_data_agnostic_cerpguide_forest/
+Anthonys-MacBook-Pro-2:1_random_forest_accuracy anthonydoan$ cp ../../../generallize_data_agnostic_cerpguide_forest/.gitignore .
+]0;~/Documents/csulb/thesis/1_data/Myeloma_cancer/3_other_models/random_forest/1_random_forest_accuracyAnthonys-MacBook-Pro-2:1_random_forest_accuracy anthonydoan$ ls
+00_packages.R			start_data
+1_random_forest_accuracy.Rproj
+]0;~/Documents/csulb/thesis/1_data/Myeloma_cancer/3_other_models/random_forest/1_random_forest_accuracyAnthonys-MacBook-Pro-2:1_random_forest_accuracy anthonydoan$ git add .
