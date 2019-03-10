@@ -1,20 +1,17 @@
 sinkall <- function() {
   i <- sink.number()
-  while (i > 0) {
-    sink()
-    i <- i - 1
+  if (i > 0) {
+    for (i in 1:i) {
+      sink()
+    }
   }
 }
 
 create_confusion_matrix <-
   function(
-    forest_predictions,
+    pred,
     actual,
-    num_tree,
-    level_names) {
-  pred <- factor(unlist(forest_predictions))
-  levels(pred) <- level_names
-  levels(actual)
+    num_tree) {
   file_path  <- str_c('confusion_matrices/random_forest_confusion_matrix_num_tree_',
                       num_tree,
                       '.txt')
