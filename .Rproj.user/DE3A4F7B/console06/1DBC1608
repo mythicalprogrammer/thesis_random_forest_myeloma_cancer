@@ -1,0 +1,6 @@
+]0;~/Documents/csulb/thesis/1_data/Myeloma_cancer/3_other_models/random_forest/1_random_forest_accuracy[?1034hAnthonys-MacBook-Pro-2:1_random_forest_accuracy anthonydoan$ git remote add ori gin https://github.com/mythicalprogrammer/thesis_random_forest_myeloma_cancer.g it
+fatal: not a git repository (or any of the parent directories): .git
+]0;~/Documents/csulb/thesis/1_data/Myeloma_cancer/3_other_models/random_forest/1_random_forest_accuracyAnthonys-MacBook-Pro-2:1_random_forest_accuracy anthonydoan$ git [K[K[K[Kgit init
+Initialized empty Git repository in /Users/anthonydoan/Documents/csulb/thesis/1_data/Myeloma_cancer/3_other_models/random_forest/1_random_forest_accuracy/.git/
+]0;~/Documents/csulb/thesis/1_data/Myeloma_cancer/3_other_models/random_forest/1_random_forest_accuracyAnthonys-MacBook-Pro-2:1_random_forest_accuracy anthonydoan$ git add[K[K[K[K[K[K[Kgit remote add ori gin https://github.com/mythicalprogrammer/thesis_random_forest_myeloma_cancer.g it
+]0;~/Documents/csulb/thesis/1_data/Myeloma_cancer/3_other_models/random_forest/1_random_forest_accuracyAnthonys-MacBook-Pro-2:1_random_forest_accuracy anthonydoan$ git add .

@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1552176937400.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "5EDDB9FE",
+    "lastKnownWriteTime" : 1552176953,
+    "last_content_update" : 1552176953243,
+    "path" : "~/Documents/csulb/thesis/1_data/Myeloma_cancer/3_other_models/random_forest/1_random_forest_accuracy/00_packages.R",
+    "project_path" : "00_packages.R",
+    "properties" : {
+        "cursorPosition" : "15,34",
+        "scrollLine" : "6",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
